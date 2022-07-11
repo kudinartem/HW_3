@@ -9,9 +9,9 @@ console.log(fibConst.join(', '));
 
 //Task No2
 
-let NumberladderRange = parseInt(prompt('Enter a number (number ladder range):'));
+let numberladderRange = parseInt(prompt('Enter a number (number ladder range):'));
 let ladderNumberEntry = [];
-for (j = 1; j < NumberladderRange + 1; j++) {
+for (j = 1; j < numberladderRange + 1; j++) {
    ladderNumberEntry.push(j);
    console.log(ladderNumberEntry.join(' ')); 
 };
